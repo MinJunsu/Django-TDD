@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e204cff9-fd26-4c68-8596-7af85298454b" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/lists/static/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/templates/lists/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/lists/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/templates/lists/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/lists/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superlists/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlists/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +232,7 @@
       <workItem from="1642221515062" duration="221000" />
       <workItem from="1643122460803" duration="3031000" />
       <workItem from="1643163524755" duration="785000" />
-      <workItem from="1643204258438" duration="4544000" />
+      <workItem from="1643204258438" duration="4809000" />
     </task>
     <servers />
   </component>
