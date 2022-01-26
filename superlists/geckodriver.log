@@ -1035,3 +1035,531 @@ JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERR
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1643206189375	geckodriver	INFO	Listening on 127.0.0.1:53094
+1643206189890	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53095" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile0AjAx7"
+1643206190705	Marionette	INFO	Marionette enabled
+2022-01-26 14:09:51.535 firefox-bin[7654:282380] Warning: Expected min height of view: (<NSButton: 0x136063000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:51.535 firefox-bin[7654:282380] Warning: Expected min height of view: (<NSButton: 0x1361c8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:51.535 firefox-bin[7654:282380] Warning: Expected min height of view: (<NSButton: 0x1361c3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:51.536 firefox-bin[7654:282380] Warning: Expected min height of view: (<NSButton: 0x1361c3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:51.536 firefox-bin[7654:282380] Warning: Expected min height of view: (<NSButton: 0x1361c8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:51.536 firefox-bin[7654:282380] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1361c6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:51.537 firefox-bin[7654:282380] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11aab4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile0AjAx7/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53095/devtools/browser/88e3d0fb-e984-4c39-8d24-09c2360a5dc0
+1643206192589	Marionette	INFO	Listening on port 53100
+1643206192614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206197908	Marionette	INFO	Stopped listening on port 53100
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206198364	geckodriver	INFO	Listening on 127.0.0.1:53161
+1643206198876	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53162" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofilePih18S"
+1643206199213	Marionette	INFO	Marionette enabled
+2022-01-26 14:09:59.812 firefox-bin[7665:282856] Warning: Expected min height of view: (<NSButton: 0x12eec3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:59.813 firefox-bin[7665:282856] Warning: Expected min height of view: (<NSButton: 0x10ce82000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:59.813 firefox-bin[7665:282856] Warning: Expected min height of view: (<NSButton: 0x13600d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:59.814 firefox-bin[7665:282856] Warning: Expected min height of view: (<NSButton: 0x13600a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:59.814 firefox-bin[7665:282856] Warning: Expected min height of view: (<NSButton: 0x13600d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:59.814 firefox-bin[7665:282856] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x136025c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:09:59.815 firefox-bin[7665:282856] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11c533000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofilePih18S/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53162/devtools/browser/19d2c28b-7c95-449b-93fd-96c337f763eb
+1643206200675	Marionette	INFO	Listening on port 53167
+1643206200760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206200942	Marionette	INFO	Stopped listening on port 53167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206238419	geckodriver	INFO	Listening on 127.0.0.1:53204
+1643206238936	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53205" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile25Jffj"
+1643206239285	Marionette	INFO	Marionette enabled
+2022-01-26 14:10:39.944 firefox-bin[7685:283569] Warning: Expected min height of view: (<NSButton: 0x13247cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:39.944 firefox-bin[7685:283569] Warning: Expected min height of view: (<NSButton: 0x1325e7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:39.945 firefox-bin[7685:283569] Warning: Expected min height of view: (<NSButton: 0x1325e5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:39.945 firefox-bin[7685:283569] Warning: Expected min height of view: (<NSButton: 0x1325e4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:39.945 firefox-bin[7685:283569] Warning: Expected min height of view: (<NSButton: 0x1325e1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:39.946 firefox-bin[7685:283569] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1325e5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:39.946 firefox-bin[7685:283569] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118272c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile25Jffj/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53205/devtools/browser/f8d818ff-73a5-414e-8d37-80329347fbff
+1643206240823	Marionette	INFO	Listening on port 53210
+1643206240941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206245161	Marionette	INFO	Stopped listening on port 53210
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206245604	geckodriver	INFO	Listening on 127.0.0.1:53263
+1643206246115	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53264" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileQtX6FC"
+1643206246469	Marionette	INFO	Marionette enabled
+2022-01-26 14:10:47.108 firefox-bin[7693:283961] Warning: Expected min height of view: (<NSButton: 0x1320c6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:47.109 firefox-bin[7693:283961] Warning: Expected min height of view: (<NSButton: 0x132522400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:47.109 firefox-bin[7693:283961] Warning: Expected min height of view: (<NSButton: 0x13251d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:47.110 firefox-bin[7693:283961] Warning: Expected min height of view: (<NSButton: 0x132523800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:47.110 firefox-bin[7693:283961] Warning: Expected min height of view: (<NSButton: 0x132522c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:47.110 firefox-bin[7693:283961] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13251e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:10:47.111 firefox-bin[7693:283961] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118a0f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileQtX6FC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53264/devtools/browser/811af47b-32b4-42c1-927d-d36311fdb3f1
+1643206248013	Marionette	INFO	Listening on port 53269
+1643206248120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206248300	Marionette	INFO	Stopped listening on port 53269
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206315220	geckodriver	INFO	Listening on 127.0.0.1:53316
+1643206315740	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53317" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileiRXygx"
+1643206316304	Marionette	INFO	Marionette enabled
+2022-01-26 14:11:57.046 firefox-bin[7735:285222] Warning: Expected min height of view: (<NSButton: 0x13440ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:11:57.046 firefox-bin[7735:285222] Warning: Expected min height of view: (<NSButton: 0x13481f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:11:57.047 firefox-bin[7735:285222] Warning: Expected min height of view: (<NSButton: 0x134823400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:11:57.047 firefox-bin[7735:285222] Warning: Expected min height of view: (<NSButton: 0x134823800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:11:57.047 firefox-bin[7735:285222] Warning: Expected min height of view: (<NSButton: 0x134824400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:11:57.048 firefox-bin[7735:285222] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134821800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:11:57.048 firefox-bin[7735:285222] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11ad09400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileiRXygx/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53317/devtools/browser/66dfb455-3733-454c-b94e-b2b982f09a70
+1643206318054	Marionette	INFO	Listening on port 53322
+1643206318132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206323460	Marionette	INFO	Stopped listening on port 53322
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206323812	geckodriver	INFO	Listening on 127.0.0.1:53377
+1643206324324	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53378" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile1DT3ft"
+1643206324659	Marionette	INFO	Marionette enabled
+2022-01-26 14:12:05.245 firefox-bin[7741:285587] Warning: Expected min height of view: (<NSButton: 0x13408e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:05.246 firefox-bin[7741:285587] Warning: Expected min height of view: (<NSButton: 0x1343e9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:05.246 firefox-bin[7741:285587] Warning: Expected min height of view: (<NSButton: 0x1343e7000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:05.246 firefox-bin[7741:285587] Warning: Expected min height of view: (<NSButton: 0x1343e7800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:05.247 firefox-bin[7741:285587] Warning: Expected min height of view: (<NSButton: 0x1343ed000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:05.247 firefox-bin[7741:285587] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1343ec000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:05.247 firefox-bin[7741:285587] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134531800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile1DT3ft/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53378/devtools/browser/8d5e212a-239b-44ad-af8f-7ae411d96a58
+1643206326105	Marionette	INFO	Listening on port 53383
+1643206326195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206326388	Marionette	INFO	Stopped listening on port 53383
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206351528	geckodriver	INFO	Listening on 127.0.0.1:53422
+1643206352052	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53423" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileXMzQRE"
+1643206352421	Marionette	INFO	Marionette enabled
+2022-01-26 14:12:33.031 firefox-bin[7765:286234] Warning: Expected min height of view: (<NSButton: 0x133f2b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:33.032 firefox-bin[7765:286234] Warning: Expected min height of view: (<NSButton: 0x13420fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:33.032 firefox-bin[7765:286234] Warning: Expected min height of view: (<NSButton: 0x134211800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:33.032 firefox-bin[7765:286234] Warning: Expected min height of view: (<NSButton: 0x13420b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:33.033 firefox-bin[7765:286234] Warning: Expected min height of view: (<NSButton: 0x13420a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:33.033 firefox-bin[7765:286234] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134210800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:33.033 firefox-bin[7765:286234] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11a655800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileXMzQRE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53423/devtools/browser/891f87cc-bdca-435c-8e1a-0c202511ab99
+1643206353966	Marionette	INFO	Listening on port 53428
+1643206354038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206357312	Marionette	INFO	Stopped listening on port 53428
+1643206357659	geckodriver	INFO	Listening on 127.0.0.1:53480
+1643206358182	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53481" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileIbBvHQ"
+1643206358568	Marionette	INFO	Marionette enabled
+2022-01-26 14:12:39.208 firefox-bin[7770:286641] Warning: Expected min height of view: (<NSButton: 0x130355400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:39.209 firefox-bin[7770:286641] Warning: Expected min height of view: (<NSButton: 0x1369c8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:39.209 firefox-bin[7770:286641] Warning: Expected min height of view: (<NSButton: 0x1369cd800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:39.210 firefox-bin[7770:286641] Warning: Expected min height of view: (<NSButton: 0x1369c9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:39.210 firefox-bin[7770:286641] Warning: Expected min height of view: (<NSButton: 0x1369c9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:39.210 firefox-bin[7770:286641] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1369cac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:39.211 firefox-bin[7770:286641] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11d178400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileIbBvHQ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53481/devtools/browser/1b4a5764-6f3b-41df-bbbb-a74e0e9ea59e
+1643206360117	Marionette	INFO	Listening on port 53486
+1643206360168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206361406	Marionette	INFO	Stopped listening on port 53486
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206361843	geckodriver	INFO	Listening on 127.0.0.1:53528
+1643206362367	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53529" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile2wsGoL"
+1643206362737	Marionette	INFO	Marionette enabled
+2022-01-26 14:12:43.332 firefox-bin[7777:286960] Warning: Expected min height of view: (<NSButton: 0x12c3dd800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:43.332 firefox-bin[7777:286960] Warning: Expected min height of view: (<NSButton: 0x1322df800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:43.333 firefox-bin[7777:286960] Warning: Expected min height of view: (<NSButton: 0x1322e2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:43.333 firefox-bin[7777:286960] Warning: Expected min height of view: (<NSButton: 0x1322e1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:43.333 firefox-bin[7777:286960] Warning: Expected min height of view: (<NSButton: 0x1322dfc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:43.334 firefox-bin[7777:286960] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1322e4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:12:43.334 firefox-bin[7777:286960] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118a2c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile2wsGoL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53529/devtools/browser/000abfe1-de2e-4f8f-93d9-016d7acbc53b
+1643206364236	Marionette	INFO	Listening on port 53534
+1643206364349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206364543	Marionette	INFO	Stopped listening on port 53534
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206418908	geckodriver	INFO	Listening on 127.0.0.1:53575
+1643206419433	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53576" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile9uzKXF"
+1643206419788	Marionette	INFO	Marionette enabled
+2022-01-26 14:13:40.378 firefox-bin[7787:287751] Warning: Expected min height of view: (<NSButton: 0x1324c5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:40.379 firefox-bin[7787:287751] Warning: Expected min height of view: (<NSButton: 0x132915400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:40.379 firefox-bin[7787:287751] Warning: Expected min height of view: (<NSButton: 0x132915800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:40.380 firefox-bin[7787:287751] Warning: Expected min height of view: (<NSButton: 0x132913c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:40.380 firefox-bin[7787:287751] Warning: Expected min height of view: (<NSButton: 0x132913400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:40.380 firefox-bin[7787:287751] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132911c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:40.382 firefox-bin[7787:287751] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x119033000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile9uzKXF/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53576/devtools/browser/f90aa0ce-7992-4855-b7f6-26ef372c909c
+1643206421235	Marionette	INFO	Listening on port 53581
+1643206421307	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206426585	Marionette	INFO	Stopped listening on port 53581
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206427040	geckodriver	INFO	Listening on 127.0.0.1:53634
+1643206427560	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53635" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofiler1gSKq"
+1643206427937	Marionette	INFO	Marionette enabled
+2022-01-26 14:13:48.543 firefox-bin[7793:288171] Warning: Expected min height of view: (<NSButton: 0x12e94b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:48.544 firefox-bin[7793:288171] Warning: Expected min height of view: (<NSButton: 0x1348ca800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:48.544 firefox-bin[7793:288171] Warning: Expected min height of view: (<NSButton: 0x1348c5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:48.544 firefox-bin[7793:288171] Warning: Expected min height of view: (<NSButton: 0x1348c6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:48.545 firefox-bin[7793:288171] Warning: Expected min height of view: (<NSButton: 0x1348c5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:48.545 firefox-bin[7793:288171] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1348c8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:13:48.545 firefox-bin[7793:288171] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1192e3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofiler1gSKq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53635/devtools/browser/3df6b0fb-558a-4256-9f7c-6dca2ca75203
+1643206429435	Marionette	INFO	Listening on port 53640
+1643206429534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206429758	Marionette	INFO	Stopped listening on port 53640
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206441648	geckodriver	INFO	Listening on 127.0.0.1:53704
+1643206442172	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53705" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile445zDi"
+1643206442528	Marionette	INFO	Marionette enabled
+2022-01-26 14:14:03.118 firefox-bin[7805:288743] Warning: Expected min height of view: (<NSButton: 0x133e8ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:03.118 firefox-bin[7805:288743] Warning: Expected min height of view: (<NSButton: 0x133eca400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:03.118 firefox-bin[7805:288743] Warning: Expected min height of view: (<NSButton: 0x133ecac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:03.119 firefox-bin[7805:288743] Warning: Expected min height of view: (<NSButton: 0x133ecb000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:03.119 firefox-bin[7805:288743] Warning: Expected min height of view: (<NSButton: 0x133ec7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:03.119 firefox-bin[7805:288743] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133ec5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:03.120 firefox-bin[7805:288743] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118898800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile445zDi/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53705/devtools/browser/aaa940a9-d376-4ee7-92ac-f7778c155126
+1643206443981	Marionette	INFO	Listening on port 53710
+1643206444055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206449335	Marionette	INFO	Stopped listening on port 53710
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206449727	geckodriver	INFO	Listening on 127.0.0.1:53762
+1643206450242	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53763" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileqOP9fG"
+1643206450656	Marionette	INFO	Marionette enabled
+2022-01-26 14:14:11.261 firefox-bin[7810:289174] Warning: Expected min height of view: (<NSButton: 0x1364a0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:11.262 firefox-bin[7810:289174] Warning: Expected min height of view: (<NSButton: 0x1366d6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:11.262 firefox-bin[7810:289174] Warning: Expected min height of view: (<NSButton: 0x1366dec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:11.262 firefox-bin[7810:289174] Warning: Expected min height of view: (<NSButton: 0x1366e0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:11.263 firefox-bin[7810:289174] Warning: Expected min height of view: (<NSButton: 0x1366d9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:11.263 firefox-bin[7810:289174] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1366dd800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:14:11.263 firefox-bin[7810:289174] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11a85d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileqOP9fG/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53763/devtools/browser/85322187-7807-4e0e-8e25-d88cbb240ce6
+1643206452156	Marionette	INFO	Listening on port 53768
+1643206452219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206452429	Marionette	INFO	Stopped listening on port 53768
+1643206661064	geckodriver	INFO	Listening on 127.0.0.1:53814
+1643206661587	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53815" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofilebsA2Pz"
+1643206662254	Marionette	INFO	Marionette enabled
+2022-01-26 14:17:43.142 firefox-bin[7865:292104] Warning: Expected min height of view: (<NSButton: 0x131de3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:43.142 firefox-bin[7865:292104] Warning: Expected min height of view: (<NSButton: 0x1320a2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:43.142 firefox-bin[7865:292104] Warning: Expected min height of view: (<NSButton: 0x1320a5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:43.143 firefox-bin[7865:292104] Warning: Expected min height of view: (<NSButton: 0x1320a2000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:43.143 firefox-bin[7865:292104] Warning: Expected min height of view: (<NSButton: 0x1320a5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:43.143 firefox-bin[7865:292104] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1320a3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:43.144 firefox-bin[7865:292104] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12b269000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofilebsA2Pz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53815/devtools/browser/290fb60a-40d0-4555-83e1-e2266132069b
+1643206664171	Marionette	INFO	Listening on port 53820
+1643206664201	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206669522	Marionette	INFO	Stopped listening on port 53820
+1643206669920	geckodriver	INFO	Listening on 127.0.0.1:53883
+1643206670445	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53884" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofilenFbBI1"
+1643206670841	Marionette	INFO	Marionette enabled
+2022-01-26 14:17:51.480 firefox-bin[7874:292609] Warning: Expected min height of view: (<NSButton: 0x12eb79c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:51.481 firefox-bin[7874:292609] Warning: Expected min height of view: (<NSButton: 0x134ae9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:51.481 firefox-bin[7874:292609] Warning: Expected min height of view: (<NSButton: 0x134aeac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:51.481 firefox-bin[7874:292609] Warning: Expected min height of view: (<NSButton: 0x134aea400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:51.482 firefox-bin[7874:292609] Warning: Expected min height of view: (<NSButton: 0x134ae8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:51.482 firefox-bin[7874:292609] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134ae4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:17:51.482 firefox-bin[7874:292609] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11b203000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofilenFbBI1/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53884/devtools/browser/4fcc4e29-8678-4b5c-8da8-91092269330f
+1643206672404	Marionette	INFO	Listening on port 53889
+1643206672429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206672619	Marionette	INFO	Stopped listening on port 53889
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1643206699853	geckodriver	INFO	Listening on 127.0.0.1:53927
+1643206700365	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53928" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileYO1mMQ"
+1643206700752	Marionette	INFO	Marionette enabled
+2022-01-26 14:18:21.486 firefox-bin[7889:293197] Warning: Expected min height of view: (<NSButton: 0x11580c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:21.486 firefox-bin[7889:293197] Warning: Expected min height of view: (<NSButton: 0x108d75c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:21.486 firefox-bin[7889:293197] Warning: Expected min height of view: (<NSButton: 0x131e97c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:21.487 firefox-bin[7889:293197] Warning: Expected min height of view: (<NSButton: 0x131e98000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:21.487 firefox-bin[7889:293197] Warning: Expected min height of view: (<NSButton: 0x131e98c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:21.487 firefox-bin[7889:293197] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131ed3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:21.488 firefox-bin[7889:293197] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131eddc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileYO1mMQ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53928/devtools/browser/3d1d7a0f-be85-49ed-bdaf-44157d092079
+1643206702508	Marionette	INFO	Listening on port 53933
+1643206702559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206707846	Marionette	INFO	Stopped listening on port 53933
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643206708239	geckodriver	INFO	Listening on 127.0.0.1:53990
+1643206708759	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53991" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileWOhR4l"
+1643206709150	Marionette	INFO	Marionette enabled
+2022-01-26 14:18:29.826 firefox-bin[7899:293652] Warning: Expected min height of view: (<NSButton: 0x1325ecc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:29.826 firefox-bin[7899:293652] Warning: Expected min height of view: (<NSButton: 0x132a3b400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:29.827 firefox-bin[7899:293652] Warning: Expected min height of view: (<NSButton: 0x132a3c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:29.827 firefox-bin[7899:293652] Warning: Expected min height of view: (<NSButton: 0x132a3ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:29.827 firefox-bin[7899:293652] Warning: Expected min height of view: (<NSButton: 0x132a3a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:29.828 firefox-bin[7899:293652] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132a3ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:18:29.828 firefox-bin[7899:293652] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1196dd000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileWOhR4l/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53991/devtools/browser/f27c84b1-c5e4-4683-9c0b-d5e58abd890f
+1643206710768	Marionette	INFO	Listening on port 53996
+1643206710853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206711090	Marionette	INFO	Stopped listening on port 53996
+1643206841322	geckodriver	INFO	Listening on 127.0.0.1:54047
+1643206841834	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54048" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileNHeYwH"
+1643206842399	Marionette	INFO	Marionette enabled
+2022-01-26 14:20:43.264 firefox-bin[7952:295471] Warning: Expected min height of view: (<NSButton: 0x12fd46400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:43.265 firefox-bin[7952:295471] Warning: Expected min height of view: (<NSButton: 0x136552000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:43.266 firefox-bin[7952:295471] Warning: Expected min height of view: (<NSButton: 0x136552400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:43.266 firefox-bin[7952:295471] Warning: Expected min height of view: (<NSButton: 0x13654e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:43.267 firefox-bin[7952:295471] Warning: Expected min height of view: (<NSButton: 0x136550800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:43.267 firefox-bin[7952:295471] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x136554000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:43.267 firefox-bin[7952:295471] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x119dc7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileNHeYwH/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54048/devtools/browser/98b5a1a0-cc2e-47bb-897f-13dd1127de26
+1643206844352	Marionette	INFO	Listening on port 54053
+1643206844447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206846779	Marionette	INFO	Stopped listening on port 54053
+1643206847264	geckodriver	INFO	Listening on 127.0.0.1:54111
+1643206847784	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54112" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile6Kg54M"
+1643206848212	Marionette	INFO	Marionette enabled
+2022-01-26 14:20:48.819 firefox-bin[7958:295963] Warning: Expected min height of view: (<NSButton: 0x135d60000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:48.820 firefox-bin[7958:295963] Warning: Expected min height of view: (<NSButton: 0x135e42800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:48.820 firefox-bin[7958:295963] Warning: Expected min height of view: (<NSButton: 0x135e3dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:48.821 firefox-bin[7958:295963] Warning: Expected min height of view: (<NSButton: 0x135e3e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:48.821 firefox-bin[7958:295963] Warning: Expected min height of view: (<NSButton: 0x135e41000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:48.821 firefox-bin[7958:295963] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x135e3cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:48.822 firefox-bin[7958:295963] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x130240c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile6Kg54M/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54112/devtools/browser/cfeb8a7d-0d2b-4046-b8fa-2d3ae3fb7b75
+1643206849718	Marionette	INFO	Listening on port 54117
+1643206849770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206850987	Marionette	INFO	Stopped listening on port 54117
+1643206851435	geckodriver	INFO	Listening on 127.0.0.1:54162
+1643206851961	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54163" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileuk5Hja"
+1643206852379	Marionette	INFO	Marionette enabled
+2022-01-26 14:20:53.053 firefox-bin[7968:296301] Warning: Expected min height of view: (<NSButton: 0x12db27000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:53.053 firefox-bin[7968:296301] Warning: Expected min height of view: (<NSButton: 0x1341e6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:53.054 firefox-bin[7968:296301] Warning: Expected min height of view: (<NSButton: 0x1341e3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:53.054 firefox-bin[7968:296301] Warning: Expected min height of view: (<NSButton: 0x1341e5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:53.054 firefox-bin[7968:296301] Warning: Expected min height of view: (<NSButton: 0x1341e3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:53.055 firefox-bin[7968:296301] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13430d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:20:53.055 firefox-bin[7968:296301] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11a965c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileuk5Hja/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54163/devtools/browser/75c9d35b-3179-4f48-a05a-93a166ee58ea
+1643206854002	Marionette	INFO	Listening on port 54168
+1643206854056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206854321	Marionette	INFO	Stopped listening on port 54168
+1643206965592	geckodriver	INFO	Listening on 127.0.0.1:54218
+1643206966103	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54219" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile41nJyu"
+1643206966711	Marionette	INFO	Marionette enabled
+2022-01-26 14:22:47.568 firefox-bin[8057:297956] Warning: Expected min height of view: (<NSButton: 0x134464800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:47.569 firefox-bin[8057:297956] Warning: Expected min height of view: (<NSButton: 0x1345cc000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:47.569 firefox-bin[8057:297956] Warning: Expected min height of view: (<NSButton: 0x1345c9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:47.569 firefox-bin[8057:297956] Warning: Expected min height of view: (<NSButton: 0x1345c8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:47.570 firefox-bin[8057:297956] Warning: Expected min height of view: (<NSButton: 0x1345cd000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:47.570 firefox-bin[8057:297956] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1345cdc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:47.570 firefox-bin[8057:297956] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134467000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofile41nJyu/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54219/devtools/browser/e589fb6a-bd34-425a-8ddb-7a48a24c2f21
+1643206968763	Marionette	INFO	Listening on port 54224
+1643206968824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206971136	Marionette	INFO	Stopped listening on port 54224
+1643206971591	geckodriver	INFO	Listening on 127.0.0.1:54283
+1643206972156	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54284" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileogDgx1"
+1643206972541	Marionette	INFO	Marionette enabled
+2022-01-26 14:22:53.249 firefox-bin[8069:298380] Warning: Expected min height of view: (<NSButton: 0x133e11c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:53.249 firefox-bin[8069:298380] Warning: Expected min height of view: (<NSButton: 0x133e9ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:53.250 firefox-bin[8069:298380] Warning: Expected min height of view: (<NSButton: 0x133e9f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:53.250 firefox-bin[8069:298380] Warning: Expected min height of view: (<NSButton: 0x10ae7d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:53.250 firefox-bin[8069:298380] Warning: Expected min height of view: (<NSButton: 0x133e9d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:53.251 firefox-bin[8069:298380] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133ea3000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:53.251 firefox-bin[8069:298380] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133e0e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileogDgx1/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54284/devtools/browser/4e8742bc-a51b-48b5-befd-c82c679c877a
+1643206974205	Marionette	INFO	Listening on port 54289
+1643206974245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643206975456	Marionette	INFO	Stopped listening on port 54289
+1643206975904	geckodriver	INFO	Listening on 127.0.0.1:54332
+1643206976425	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54333" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileZeQsUi"
+1643206976806	Marionette	INFO	Marionette enabled
+2022-01-26 14:22:57.459 firefox-bin[8075:298735] Warning: Expected min height of view: (<NSButton: 0x13425d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:57.460 firefox-bin[8075:298735] Warning: Expected min height of view: (<NSButton: 0x1343db800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:57.460 firefox-bin[8075:298735] Warning: Expected min height of view: (<NSButton: 0x1343e0400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:57.460 firefox-bin[8075:298735] Warning: Expected min height of view: (<NSButton: 0x1343db400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:57.461 firefox-bin[8075:298735] Warning: Expected min height of view: (<NSButton: 0x1343e1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:57.461 firefox-bin[8075:298735] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1343ddc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:22:57.462 firefox-bin[8075:298735] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118db4000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileZeQsUi/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54333/devtools/browser/c8907700-9327-4fb2-8aa7-f5b73a756cb1
+1643206978410	Marionette	INFO	Listening on port 54338
+1643206978517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643206978690	Marionette	INFO	Stopped listening on port 54338
+1643207088679	geckodriver	INFO	Listening on 127.0.0.1:54390
+1643207089186	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54391" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileY2X7nk"
+1643207089842	Marionette	INFO	Marionette enabled
+2022-01-26 14:24:50.669 firefox-bin[8158:300446] Warning: Expected min height of view: (<NSButton: 0x132bbf800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:50.669 firefox-bin[8158:300446] Warning: Expected min height of view: (<NSButton: 0x132e49c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:50.670 firefox-bin[8158:300446] Warning: Expected min height of view: (<NSButton: 0x132e48c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:50.670 firefox-bin[8158:300446] Warning: Expected min height of view: (<NSButton: 0x132e4cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:50.671 firefox-bin[8158:300446] Warning: Expected min height of view: (<NSButton: 0x132e4f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:50.671 firefox-bin[8158:300446] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132e4e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:50.671 firefox-bin[8158:300446] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11930ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileY2X7nk/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54391/devtools/browser/d9de2342-9b40-45ca-9461-0146c8f7cbb1
+1643207091836	Marionette	INFO	Listening on port 54396
+1643207091900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643207094253	Marionette	INFO	Stopped listening on port 54396
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643207094732	geckodriver	INFO	Listening on 127.0.0.1:54455
+1643207095246	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54456" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofilebLcvwX"
+1643207095616	Marionette	INFO	Marionette enabled
+2022-01-26 14:24:56.280 firefox-bin[8168:300884] Warning: Expected min height of view: (<NSButton: 0x12c919800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:56.281 firefox-bin[8168:300884] Warning: Expected min height of view: (<NSButton: 0x13288b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:56.281 firefox-bin[8168:300884] Warning: Expected min height of view: (<NSButton: 0x13288a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:56.282 firefox-bin[8168:300884] Warning: Expected min height of view: (<NSButton: 0x13288a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:56.282 firefox-bin[8168:300884] Warning: Expected min height of view: (<NSButton: 0x132888000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:56.282 firefox-bin[8168:300884] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132886400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:24:56.283 firefox-bin[8168:300884] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x116a46000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofilebLcvwX/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54456/devtools/browser/a9e16e8a-bfaa-4d37-9bae-fa2e7916db82
+1643207097175	Marionette	INFO	Listening on port 54461
+1643207097232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1643207098464	Marionette	INFO	Stopped listening on port 54461
+1643207098894	geckodriver	INFO	Listening on 127.0.0.1:54512
+1643207099413	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54513" "-foreground" "-no-remote" "-profile" "/var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileQm4F4w"
+1643207099840	Marionette	INFO	Marionette enabled
+2022-01-26 14:25:00.533 firefox-bin[8175:301223] Warning: Expected min height of view: (<NSButton: 0x136c11000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:25:00.533 firefox-bin[8175:301223] Warning: Expected min height of view: (<NSButton: 0x10db72800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:25:00.534 firefox-bin[8175:301223] Warning: Expected min height of view: (<NSButton: 0x136f27400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:25:00.534 firefox-bin[8175:301223] Warning: Expected min height of view: (<NSButton: 0x136f2c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:25:00.534 firefox-bin[8175:301223] Warning: Expected min height of view: (<NSButton: 0x136f27800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:25:00.535 firefox-bin[8175:301223] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x136f51400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-26 14:25:00.535 firefox-bin[8175:301223] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11d409800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/31/k48zzm7s32j7q1nrly8rn8pm0000gn/T/rust_mozprofileQm4F4w/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:54513/devtools/browser/8c1f6fc1-c5b8-4b55-aa03-654137f7ce48
+1643207101519	Marionette	INFO	Listening on port 54518
+1643207101591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643207102809	Marionette	INFO	Stopped listening on port 54518

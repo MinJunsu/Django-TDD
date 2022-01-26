@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/templates/lists/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/lists/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/templates/lists/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/lists/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/views.py" afterDir="false" />
@@ -69,7 +69,7 @@
       <recent name="$PROJECT_DIR$/lists/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: lists.tests">
+  <component name="RunManager" selected="Django tests.Test: functional_tests.tests">
     <configuration name="Test: functional_tests.tests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="superlists" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,10 +204,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: functional_tests.tests" />
         <item itemvalue="Django tests.Test: lists.tests" />
         <item itemvalue="Django tests.Test: lists.tests.NewItemTest.test_redirects_to_list_view" />
         <item itemvalue="Django tests.Test: lists.tests.NewItemTest.test_can_save_a_POST_request_to_an_existing_list" />
-        <item itemvalue="Django tests.Test: functional_tests.tests" />
         <item itemvalue="Django tests.Test: lists.tests.ListViewTest.test_uses_list_template" />
       </list>
     </recent_temporary>
@@ -231,7 +231,7 @@
       <workItem from="1642221515062" duration="221000" />
       <workItem from="1643122460803" duration="3031000" />
       <workItem from="1643163524755" duration="785000" />
-      <workItem from="1643204258438" duration="1020000" />
+      <workItem from="1643204258438" duration="2822000" />
     </task>
     <servers />
   </component>
@@ -250,12 +250,12 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/superlists$Test__functional_tests_tests.coverage" NAME="Test: functional_tests.tests Coverage Results" MODIFIED="1643123007660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/superlists$Test__lists_tests_NewItemTest_test_can_save_a_POST_request_to_an_existing_list.coverage" NAME="Test: lists.tests.NewItemTest.test_can_save_a_POST_request_to_an_existing_list Coverage Results" MODIFIED="1643124797846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/superlists$Test__functional_tests_tests.coverage" NAME="Test: functional_tests.tests Coverage Results" MODIFIED="1643206965026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/superlists$Test__lists_tests_NewItemTest_test_redirects_to_list_view.coverage" NAME="Test: lists.tests.NewItemTest.test_redirects_to_list_view Coverage Results" MODIFIED="1643124898907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/superlists$Test__lists_tests_ItemModelTest.coverage" NAME="Test: lists.tests Coverage Results" MODIFIED="1642147556906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/superlists$Test__functional_tests_tests_NewVisitorTest.coverage" NAME="Test: functional_tests.tests Coverage Results" MODIFIED="1642148748936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/superlists$Test__lists_tests_ListViewTest_test_uses_list_template.coverage" NAME="Test: lists.tests.ListViewTest.test_uses_list_template Coverage Results" MODIFIED="1642148333424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/superlists$Test__lists_tests.coverage" NAME="Test: lists.tests Coverage Results" MODIFIED="1643205266935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/superlists$Test__lists_tests.coverage" NAME="Test: lists.tests Coverage Results" MODIFIED="1643206915740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

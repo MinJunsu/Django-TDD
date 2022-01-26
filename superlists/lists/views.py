@@ -25,4 +25,4 @@ def new_list(request):
 def add_item(request, pk):
     list_ = List.objects.get(pk=pk)
     Item.objects.create(text=request.POST['item_text'], list=list_)
-    return redirect(f'/list/{list_.id}/')
+    return redirect(f'/lists/{list_.id}/')

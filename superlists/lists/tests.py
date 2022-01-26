@@ -75,7 +75,7 @@ class ListViewTest(TestCase):
 class NewListTest(TestCase):
 
     def test_saving_a_POST_request(self):
-        self.client.post('/lists/new', data={
+        self.client.post('/lists/new/', data={
             'item_text': '신규 작업 아이템'
         })
 
@@ -84,7 +84,7 @@ class NewListTest(TestCase):
         self.assertEqual(new_item.text, '신규 작업 아이템')
 
     def test_redirects_after_POST(self):
-        response = self.client.post('/lists/new', data={
+        response = self.client.post('/lists/new/', data={
             'item_text': '신규 작업 아이템'
         })
 
@@ -114,5 +114,4 @@ class NewItemTest(TestCase):
             'item_text': '기존 목록에 신규 아이템'
         })
 
-        # ! 이 부분이 왜 안되는지 모르겠음.
-        # self.assertRedirects(response, f'/lists/{correct_list.id}/')
+        self.assertRedirects(response, f'/lists/{correct_list.id}/')
