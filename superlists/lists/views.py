@@ -9,14 +9,20 @@ def home_page(request):
     return render(request, 'lists/home.html')
 
 
-def view_list(request):
-    items = Item.objects.all()
+def view_list(request, pk):
+    list_ = List.objects.get(pk=pk)
     return render(request, 'lists/list.html', {
-        'items': items
+        'list': list_
     })
 
 
 def new_list(request):
     list_ = List.objects.create()
     Item.objects.create(text=request.POST['item_text'], list=list_)
-    return redirect('/lists/the-only-list-in-the-world/')
+    return redirect(f'/lists/{list_.id}/')
+
+
+def add_item(request, pk):
+    list_ = List.objects.get(pk=pk)
+    Item.objects.create(text=request.POST['item_text'], list=list_)
+    return redirect(f'/list/{list_.id}/')
