@@ -1,0 +1,12 @@
+[Unit]
+Description=Django TDD Service
+After=network.target
+
+[Service]
+User=azureuser
+Group=azureuser
+WorkingDirectory=/home/azureuser/sites/sunsuking.kro.kr/source
+ExecStart=/home/azureuser/sites/sunsuking.kro.kr/virtualenv/bin/gunicorn --bind unix:/tmp/sunsuking.kro.kr.socket superlists.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
